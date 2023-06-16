@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Date ()객체와 조건문 활용</h1>
+    <script type="text/javascript">
+        var today = new Date();
+        var y = today.getFullYear();
+        var m = today.getMonth() + 1;
+        var d = today.getDate();
+        var hur = today.getHours();
+        
+        document.write(" 오늘 날짜 : " + y + "년" + m + "월" + d + "일");
+        if(hur<12) {
+            alert("오전입니다");
+        }else {
+            alert("오후입니다");
+        }
+    </script>
+</body></html>
