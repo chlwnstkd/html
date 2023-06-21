@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .main{
+            width: 500px;
+            border: 1px solid grey;
+            border-radius: 15px;
+            margin: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <hr><h1>필수 입력 사항</h1>
+        <form name="join" method="post" action="http://www.daum.net">
+            <hr><br>이름 <input type="text" size="20" name="u_name" maxlength="10" value="홍길동">
+            <br><br>아이디 <input type="text" size="20" name="u_id" maxlength="10"><input type="button" name="u_id" value="중복확인">
+            <br><br>비밀번호 <input type="password" size="20" name="u_pass" maxlength="10">
+            <br><br>성별<input type="radio" name="gender" value="f" checked>여자<input type="radio" name="gender" value="m">남자
+            <input type="radio" name="gender" value="o">기타
+            <br><br>이메일주소<input type="email" name="n_email"><br><br>
+            <hr>
+            <h1>선택 사항 입력</h1>
+            <hr><br>관심사 <input type="checkbox" name="is" value="it" checked>IT
+            <input type="checkbox" name="is" value="it">GAME
+            <input type="checkbox" name="is" value="it">SPORT
+            <input type="checkbox" name="is" value="it">MUSIC
+            <input type="checkbox" name="is" value="it">MOVIE
+            <br><br>주소지 <select name="u_addr"> <option value="seoul">
+                서울특별시
+            </option>
+            <option value="seoul">
+                경기도
+            </option>
+            <option value="seoul">
+                전라도
+            </option>
+            <option value="seoul">
+                충청도
+            </option>
+            <option value="seoul">
+                강원도
+            </option>
+            <option value="seoul">
+                경상도
+            </option>
+            </select>
+            <br><br> 사진 첨부 <input type="file">
+            <br><br>메모사항
+            <br>
+                <textarea name="memo" rows="10" cols="40">    
+            </textarea>
+            <hr>
+            <input type="submit" value="전송하기">
+            <input type="reset" value="취소하기">
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>
