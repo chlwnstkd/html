@@ -1,0 +1,10 @@
+
+       strong{color:red;}
+       .ex{color:blue; background-color:chartreuse;}
+       #main{color:darkkhaki;}
+       a:link{color:red;}
+       a:visited{color:darkblue;}
+       a:hover{color:yellow; background-color:blue;}
+
+p{font-family:"궁서체", "굴림체"; font-size:20pt; font-weight:bold; text-decoration:underline;line-height:40pt;}
+h3{text-align:center;text-shadow:3pt 3pt 4pt yellow;}
