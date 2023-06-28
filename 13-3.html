@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>13-3</h1>
+    <script type="text/javascript">
+        function add(a, b) {
+            return (a + b);
+        }
+
+        function sub(a, b) {
+            return (a - b);
+        }
+
+        function mul(a, b) {
+            return (a * b);
+        }
+
+        function pie(a, b) {
+            return (a / b);
+        }
+
+        function rem(a, b) {
+            return (a % b);
+        }
+        var a = parseInt(prompt("첫번째 숫자를 입력하세요", ""));
+        var n = prompt("사칙연산자를 입력하세요", "");
+        var b = parseInt(prompt("두번째 숫자를 입력하세요", ""));
+        switch (n) {
+            case "+":
+                result = add(a, b);
+                break;
+            case "-":
+                result = sub(a, b);
+                break;
+            case "*":
+                result = mul(a, b);
+                break;
+            case "/":
+                result = pie(a, b);
+                break;
+            case "%":
+                result = rem(a, b);
+                break;
+            default:
+                document.write("다시 입력하세요");
+                result = "";
+        }
+        document.write(result);
+    </script>
+</body></html>

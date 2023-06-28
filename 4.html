@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form name="a"  action="aslk;dfj" method="get">
+        <fieldset>
+            <legend>성별과 나이를 입력하세요</legend>
+            성별 : 
+            <label><input type="radio"> 남자</label>
+            <label><input type="radio"> 여자</label>
+            <br>
+            나이 :
+            <input type="number">  
+        </fieldset>
+        <fieldset>
+            <legend>관심 분야를 선택해주세요(1개 이상)</legend>
+            <label><input type="checkbox">디콘</label>
+            <label><input type="checkbox">웹프</label>
+            <label><input type="checkbox">DB</label>
+            <label><input type="checkbox">전자출판</label>
+        </fieldset>
+        <fieldset>
+            <legend>다음 문항에 대해 5점 척도로 답하세요.</legend>
+            본 세미나의 주제는 만족? 1<input type="range" value="3" min="1" max="5">5
+            <br>
+            본 세미나의 초청강사 만족? 1<input type="range" value="3" min="1" max="5">5
+            <br>
+            본 세미나의 강의 시간 만족? 
+            1<input type="range" value="3" min="1" max="5">5
+        </fieldset>
+        <br>
+        기타 의견 사항
+        <br>
+        <textarea rows="25" cols="50" >
+        의견을 적으세요
+        </textarea>
+    </form>
+</body>
+</html>
