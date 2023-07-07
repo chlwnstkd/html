@@ -1,0 +1,28 @@
+/* 저자: 임순범 박희민 */
+/* 본 예제는 [HTML5 웹프로그래밍 입문] 교재를 이용한 교육에만 사용할 수 있음 */
+
+body { background-color: gray; font-size: 0.75em; line-height: 1.2em; }
+
+img { border:none; }
+
+.wrap { text-align:left; background-color: white; }
+
+a { text-decoration: none; }
+
+#logo { color: darkblue; font-size: 48px; }
+
+header .right a:hover { color: gray; }
+
+input { color:blue; }
+
+nav { background-color: aqua; }
+    
+nav ul { list-style:none; font-family: Verdana, Geneva, sans-serif; font-size: 14px;
+    font-weight: bold; color: #ff0099;
+}
+
+nav a { text-decoration:none; color:#000000; border-style: hidden hidden solid hidden;
+    border-color: transparent;
+}
+
+nav a:hover { color:#2b4480;    border-color: blue; }
